@@ -13,5 +13,10 @@ module.exports = {
         use: ["style-loader", "css-loader"]
       }
     ]
-  }
+  },
+  mode: 'development',
+  entry: {
+    index: './src/index.js',
+    another: './src/index.html',
+  },
 };
