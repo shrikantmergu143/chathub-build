@@ -17,6 +17,5 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.js',
-    another: './src/index.html',
   },
 };
